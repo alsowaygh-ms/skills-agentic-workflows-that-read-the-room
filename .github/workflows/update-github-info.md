@@ -36,3 +36,7 @@ Identify recent, verifiable developments that are useful to developers and relev
 Update `site/content/github-info.md` with only concise, practical additions or corrections. Preserve its existing structure and editorial angle, avoid duplicating existing material, and link each Blog or Changelog-based change to its specific source page.
 
 Never write, push, or merge directly to `main`. After making a meaningful change, use the `create-pull-request` safe output once to open a pull request for Mona to review. The pull request should summarize the changes and cite the source pages. Do not merge it.
+### Awesome Copilot workflows
+
+- Web fetch https://awesome-copilot.github.com/workflows/ and add it to the sources.
+- Add `awesome-copilot.github.com` to `network.allowed`, preserving all existing entries, including GitHub Blog network access.
